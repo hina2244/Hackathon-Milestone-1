@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: plum;
+}
+.heading{
+    color: rgba(170, 9, 122, 0.808);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main{
+    max-width: 80%;
+    margin: auto;
+    background-image: url(download\ \(2\).jpg);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.personal{
+    color: rgb(39, 11, 65);
+    background-color: rgba(235, 86, 190, 0.808);
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.ForPic{
+    color:rgb(161, 11, 124)
+}
+
+input[type="file"]{
+font-size: 16px;
+padding: 10px;
+width: 250px;
+background-color: rgba(235, 86, 190, 0.808);
+border-radius: 30px;
+margin-top: 20px;
+}
+
+input[type="file"]::file.selector-button{
+    background-color: rgba(235, 86, 190, 0.808);
+    cursor: pointer;
+    font-size: large;
+     color: #fff;
+     border-color: blueviolet;
+     border-radius: 10px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: whitesmoke;
+    border-width: 3px;
+}

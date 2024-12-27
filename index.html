@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><strong>Milestone 1 Static Resume Builder</strong></div>
+    <div class="main">
+      <form id="resumeform">
+        <div class="personal"><strong>Personal Information</strong></div>
+      <label for= "Picture" class="Inputname" id="upload"><strong>UpLoad Picture</strong></label>
+      <input type="file"name="Picture" id="Picture" class="Forpic"accept="image"> <br> <br>
+      <label for="name" class="Inputname"><strong>Name:
+      </strong></label>
+      <input type="text" id="name" name="name"required> <br> <br>
+      <label for="email" class="Inputname"><strong>Email:</strong></label>
+      <input type="email" name="email" id="email" required> <br> <br>
+      <label for="Phone" class="Inputname"><strong>Phone Number:</strong></label>
+      <input type="tel" name="Phone" id="Phone" required> <br> <br>
+      <label for="address" class="Inputname"><strong>Address:</strong></label>
+      <input type="text" name="address" id="address" required> <br> <br>
+    
+    <div class="personal"><strong>Skills</strong></div>
+    <label for="skills" class="Inputname"><strong>Skills:</strong></label>
+    <input type="text" name="skills" id="skills" required>  <br> <br>
+    <div class="personal"><strong>Education</strong></div>
+    <label for="education" class="Inputname"><strong>Education:</strong></label>
+    <textarea name="education" id="education" required></textarea> <br> <br>
+    <div class="personal"><strong>Experience</strong></div>
+    <label for="experience" class="Inputname"><strong>Work Experience</strong></label>
+    <textarea name="experience" id="experience" required></textarea> <br> <br>
+
+    <input type="submit" class="Inputname" value="Generate Resume">
+  </form> 
+    </div>
+    
+</body>
+</html>
